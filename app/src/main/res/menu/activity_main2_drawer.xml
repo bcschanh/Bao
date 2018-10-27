@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_control_point_black_24dp"
+            android:title="Thêm Báo" />
+        <item
+            android:id="@+id/nav_addcm"
+            android:icon="@drawable/ic_note_add_black_24dp"
+            android:title="Thêm chuyên mục" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Sửa báo đã chọn" />
+        <item
+            android:id="@+id/nav_size"
+            android:icon="@drawable/ic_format_size_black_24dp"
+            android:title="Chọn kích thước chữ" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_kenh14"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_bao123"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu></item>
+    <item android:title="Báo khác">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="vnexpress" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="Báo mới" />
+        </menu>
+    </item>
+    <item android:title="Close"
+        android:id="@+id/nav_close"
+        android:icon="@drawable/ic_close_black_24dp"></item>
+
+</menu>
